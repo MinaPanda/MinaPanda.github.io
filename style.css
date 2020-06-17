@@ -1,0 +1,414 @@
+ body 	{		width:100%;
+					height:100%;
+					padding:0;
+					margin:0;
+					height: 100vh;
+}
+
+html { scroll-behavior: smooth;}		
+		
+
+/*-------Header-------*/	
+header{				
+					width:100%;
+					height:100vh;
+					background: url(images/BG5.jpg) no-repeat 50% 50%;
+					background-size:cover;	
+					background-attachment: fixed;
+}
+
+.mid {				position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					font-family: "Teko", sans-serif;
+					color: white;
+					text-align: center;
+					font-size: 30px;
+}
+
+.mid h1 {			font-size: 90px;				
+}
+
+
+/*-------scrolldown-------*/
+
+
+.scrolldown{		position: absolute;
+					top: 92%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					font-family: "Exo", sans-serif;
+					color: white;
+					text-align: center;
+					font-size: 30px;
+}
+
+.scrolldown:hover{ opacity: 0.7;
+					cursor: pointer;
+	
+}
+.scrolldown p {		margin: 0;
+					font-size: 20px
+					
+}					
+
+
+/*-------Navbar-------*/
+						
+.logo a{			font-family: "Teko", sans-serif;
+					font-size: 35px;
+					position:fixed;
+					float:left;
+					margin: 15px 35px;
+					color: white;}
+
+.logo a:hover{		text-decoration: none;
+					color: white;
+}					
+
+nav{				position: fixed;
+					height: 40px;
+					width:100%;
+					z-index:99;					
+}
+
+nav ul{				list-style: none; 
+					color: white;
+					width:100%;
+					overflow: hidden; 
+					text-align: right;
+					padding: 0; 
+					transition: 1s;
+}
+
+nav.black ul{		background: black;									
+}
+
+nav ul li{			display: inline-block;
+					padding: 24px;					
+}
+
+nav ul li a{		text-decoration: none;
+					color: white;
+					font-size: 18px;
+					font-family: "Exo", sans-serif;				
+}
+			
+nav ul li a:hover{	color: white;
+					text-decoration: underline;}
+
+.menu-icon{			width: 100%;
+					background: black;
+					text-align: right;
+					box-sizing: border-box;
+					padding: 15px 24px;
+					cursor: pointer;
+					color: white;
+					display: none;					
+}
+
+
+/*-------CONTENT-------*/
+
+
+section	{		font-family: "Exo", sans-serif;
+				height: auto;
+				padding: 100px;
+				text-align: justify;
+				margin: 80px;
+}
+
+
+
+section h1, section h2, section h3{	font-family: "Teko", sans-serif;
+					text-align: left;
+					text-transform: uppercase;
+}
+
+
+
+
+#imp article {float: left;
+				width:60%;
+				margin-bottom: 80px;}
+				
+#imp aside {float:right;
+			width: 30%;
+			}
+#sec {margin-top:20px;}
+
+
+
+	/*-------Pictures------*/	
+
+	.pandame {			max-width: 200px; height: auto;}
+
+
+
+	/*-------Arrownav------*/	
+
+	.back {				text-align: center;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						font-size: 20pt;
+						color: lightgrey;
+	}
+
+	.back:hover, .next:hover {		color:grey;
+	}
+	.next {				text-align: center;
+						margin-bottom: 10px;
+						font-size: 20pt;
+						color: lightgrey;
+						margin-top:100px;
+						margin-bottom:0;
+	}
+
+	 .scrollup {		text-align: center;
+						
+						margin-top: 20px;
+						margin-bottom: 10px;
+						font-size: 15pt;
+						color: lightgrey;
+						font-family: "Exo", sans-serif;
+	}
+
+	.scrollup:hover {color: grey;}
+	 
+ 
+
+
+
+	/*-------Parallax-------*/
+	.parallax-inner-black h1 { 	font-size: 60px;
+							text-align: center;
+							top: 50%;
+							width:30%;
+							position: absolute;
+							left: 50%;
+							color: white;
+							letter-spacing:2px;
+							transform: translate(-50%, -50%);
+							background-color: black;
+							padding: 20px 20px 10px 20px;						
+	}
+
+ 
+	.parallax-inner-white h1{ font-size: 60px;
+							text-align: center;
+							top: 50%;
+							width:30%;
+							position: absolute;
+							left: 50%;
+							color: black;
+							letter-spacing:2px;
+							transform: translate(-50%, -50%);
+							background-color: white;
+							padding: 20px 20px 10px 20px;						
+	}
+					
+	.paraimg, .paraimg1, .paraimg2, .paraimg3, .paraimg4, .paraimg5, .paraimgimp {
+							position:relative;
+							width:100%;
+							background-position: center;
+							background-size: cover; 
+							background-repeat: no-repeat;
+							background-attachment: fixed;
+							padding:0;
+							margin:0;}
+								
+		
+
+	.paraimg{				background-image:url("images/BG4.jpg");
+						min-height: 500px;
+			
+	}	
+	.paraimg1{				background-image:url("images/BG1.jpg");
+						min-height: 500px;
+			
+	}
+	
+	.paraimg2{				background-image:url("images/gunpla.jpg");
+						min-height: 500px;				
+	}
+
+	.paraimg3{				background-image:url("images/justice.jpg");
+						min-height: 500px;	
+	}
+
+	.paraimg4{				background-image:url("images/end.jpg");
+						min-height: 500px;	
+	}
+
+	.paraimg5{				background-image:url("images/justice.jpg");
+						min-height: 500px;	
+	}
+	
+	.paraimgimp{				background-image:url("images/exia.jpg");
+						min-height: 500px;
+	}
+	
+	
+	/*-------Gallery------- */
+
+.main{			margin-top: 80px;
+				
+}
+
+.wrapper {		max-width: 1000px;
+				margin-top: 20px;
+				text-align: center;
+				margin-left: 25%
+}
+
+.column {		padding: 5px;
+				float: left;
+				width: 50%;
+}
+
+.content {		background-color: white;
+				padding: 10px;
+}
+
+
+/*-------footer-------*/
+
+
+footer {margin-bottom: 0;
+		clear: both;
+		width: 100%;
+		height:5%;
+		background: black;
+		clear:both;
+		text-align: center;
+		color: white;
+		}
+
+
+		
+/*-------Media Queries-------*/
+
+@media(max-width:1024px){ 
+	.logo a{	position:fixed; 
+				top: 0;
+				margin-top: 8px;
+				font-size: 24px;
+	}
+
+	nav ul{		max-height: 0px;
+				width:100%;
+				background:black;
+				font-size: 15pt;
+	}
+								
+	nav ul li{	box-sizing: border-box;
+				width: 100%;
+				padding: 24px 0; 
+				text-align: center; 
+	}
+								
+	nav ul li a {display: block;
+	}
+								
+	.menu-icon{	display: block; 	
+	}
+								
+	.show{		max-height: 25em;	
+	}
+								
+	nav.black ul{background: black;
+	}
+								
+	section {	padding: 30px;
+				margin:10px;
+	}
+	
+	
+	.pandame{ 	width:40%;
+				height:auto ;
+	}
+	
+	
+	
+	.column {	width: 50%;
+				margin:0;
+    }
+	
+	.wrapper {	margin-left: 0;
+	}						
+
+}
+
+@media(max-width:780px){
+
+	
+	.parallax-inner-black h1{ 	font-size: 30px;
+								width:50%;	
+	}
+
+	 
+	.parallax-inner-white h1{ 	font-size: 30px;
+								width:50%;			
+	}
+	
+	.parallax-inner-text { 	height:auto;
+							width:100%;
+	}
+	
+	.paraimg, .paraimg1, .paraimg2, .paraimg3, .paraimgimp {
+								height: 100vh;
+	}
+	
+	 .column {					width: 100%;
+								margin:0;
+    }
+	
+	.wrapper {	margin-left: 0;
+	}	
+	
+	#imp article {
+				width:100%;}
+				
+	#imp aside {
+			width: 100%;
+			margin-bottom: 40px;
+			}
+}
+
+						
+							
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

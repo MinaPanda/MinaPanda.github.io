@@ -1,0 +1,190 @@
+<! DOCTYPE html>
+<html>
+
+<!--Head-->
+<head>
+	<title>Mecha World</title>
+
+	<!--Meta-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content"ie=edge">
+	
+	<!--Style/CSS und Javascript/jQuery---->
+	<link rel="stylesheet" type="text/css" href="print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">	
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	
+	
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+	
+	
+	<!--Googlefonts-->
+	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Exo:500" rel="stylesheet"> 
+	
+	<style>
+	</style>
+</head>	
+
+<!--Body-->
+<body>
+
+	<!--Header-->
+		<header id="up">
+			<a href="index.html">
+				<div class="mid">
+						<hr>
+							<h1>MECHA WORLD</h1>
+							<p>MECHS, GUNPLA AND MORE</p>
+						<hr>
+					
+				</div>	
+			</a>
+			
+	<!--ScrollDown-->
+			
+			<a href="#secimp" class="hidden-print">
+				<div class="scrolldown" >
+					<p>scroll down</p>
+					<span class="glyphicon glyphicon-menu-down"></span>
+				</div>
+			</a>
+			
+	<!--Navigation-->
+				<div class="hidden-print">
+					<nav>
+						<div class="menu-icon">
+							<i class="fa fa-bars fa2x"></i>
+						</div>
+						
+						<div class="logo">
+							<a href="#up">MECHA WORLD</a>
+						</div>
+						
+						<div>
+								<ul> 
+									<li> <a href="index.html #up">HOME</a></li>
+									<li> <a href="index.html #sec">WELCOME</a></li>
+									<li> <a href="index.html #sec2">ABOUT ME</a></li> 
+									<li> <a href="index.html #sec4">GUNPLA</a></li> 
+									<li> <a href="index.html #sec6">A/Z</a></li> 
+									<li> <a href="impressum.html #secimp">IMPRESSUM</a></li> 
+								</ul>
+						</div>
+					</nav>
+				</div>
+				
+		
+						
+		</header>
+	
+
+<!--Content-->
+<section id="secimp" class="paraimgimp" class="hidden-print">
+		<div class="parallax-inner-black">
+			
+				<h1 class="noprint">Impressum</h1>
+			
+		</div>
+		
+	</section>
+
+<div class="parallax-inner-text" class=".d-print-none">
+	<section id="imp" class="imp">
+			<article>
+				<h1>Impressum</h1>
+				<hr>
+					<p>
+						This website is owned by a sleepy panda. <br />
+						There is no particular reason why this website is in english, but why not.
+						Thank you for visiting and have a good night of sleep and fluffy dreams. 
+					</p>
+				
+				
+					<p>
+							<div class="glyphicon glyphicon-user"> </div>
+							Mina emperor of the Monarchy of Pandaria
+							
+								
+					</p>
+					<p>
+							<div class="glyphicon glyphicon-home"> </div>
+								The end of the world 2013 <br />
+								78934 Somewhere					<br />
+								Germany 
+								
+					</p>
+					
+				</article>
+	
+				<aside>
+					
+						<h1>Contact Me </h1> 
+						<hr>
+							<p>
+								<div class="glyphicon glyphicon-envelope"> </div>
+								minapuddingkuchen@gmail.com 
+							</p>
+							
+							<p>
+								<div class="glyphicon glyphicon-glyphicon glyphicon-earphone"> </div>
+								080808 80808080
+							</p>
+							
+					
+				</aside>
+			
+		
+	</section>
+</div>	
+<footer >
+</footer>	
+
+	
+<!-- Javascript/jQuery-->
+
+	<script type="text/javascript">	
+	
+	//Navigation
+		$(document).ready(function(){
+			$(".menu-icon").on("click", function(){
+				$("nav ul").toggleClass("show");
+			});
+		});
+
+	//Scroll Effekt Navbar
+		$(window).on("scroll", function(){
+			if($(window).scrollTop()) {
+				$("nav").addClass("black");
+			}
+			else {
+				$("nav").removeClass("black");
+			}
+		});
+
+</script>
+	
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

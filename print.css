@@ -1,0 +1,33 @@
+@media print {
+	html{			font-size: 12pt;
+	}
+	
+	.pagebreak{	 	page-break-before: always; 
+	}
+	
+	#sec2 {			display: none!important;
+	}
+	
+	#sec4{			display: none !important;
+	}
+	
+	#sec6{			display: none !important;
+	}
+	
+	#sec9{			display: none !important;
+	}
+	
+	
+	.hidden-print{	display:none !important;
+	}
+	
+	.d-print-none{	display:none !important;
+	}
+	
+	.main{			display:none !important;
+	}
+	
+	img{			display: none !important;
+	}
+	
+}
